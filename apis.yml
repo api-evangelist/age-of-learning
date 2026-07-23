@@ -1,8 +1,14 @@
 aid: age-of-learning
 name: Age of Learning
-description: 'Age of Learning is a company surfaced as a portfolio company of iconiq-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: edtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Age of Learning, Inc. is a Glendale, California educational technology company
+  founded in 2007, best known for ABCmouse.com Early Learning Academy, a subscription digital
+  curriculum for children ages 2-8, along with Adventure Academy (ages 8-13) and Mastery-branded
+  school programs. It builds direct-to-consumer and school-facing learning products delivered
+  through web and mobile apps (iOS and Android). Age of Learning does not publish a public
+  developer API, SDK, or developer portal; this API Evangelist profile tracks the company as
+  a consumer edtech provider surfaced from the ICONIQ Capital portfolio, enriched with the
+  public link surface (privacy, terms, support, press, careers) and a domain-security posture
+  probed from public DNS/TLS records.'
 url: https://raw.githubusercontent.com/api-evangelist/age-of-learning/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - iconiq-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.ageoflearning.com/wp-content/themes/hello-theme-child-master/images/footer.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Edtech
+- Education
+- E-Learning
+- Early Childhood Education
+- Children
+- Consumer
+- Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.ageoflearning.com/
+- type: PrivacyPolicy
+  url: https://www.ageoflearning.com/privacy-policies/
+- type: TermsOfService
+  url: https://www.ageoflearning.com/abc-t-and-c-current/
+- type: Support
+  url: https://www.ageoflearning.com/contact/
+- type: HelpCenter
+  url: https://support.abcmouse.com/hc/en-us
+- type: Blog
+  url: https://www.ageoflearning.com/press/
+- type: DomainSecurity
+  url: security/age-of-learning-domain-security.yml
+- type: LLMsTxt
+  url: llms/age-of-learning-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
